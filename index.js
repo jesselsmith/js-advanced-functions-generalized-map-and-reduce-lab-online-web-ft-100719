@@ -5,8 +5,6 @@ function map(sourceArray, callbackFunction) {
   return newArray
 }
 
-[1, 2, 3].reduce()
-
 function reduce(sourceArray, callbackFunction, startingPoint) {
   let memo = startingPoint
   let workingArray = []
